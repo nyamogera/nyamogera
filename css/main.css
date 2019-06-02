@@ -1,0 +1,46 @@
+body{
+    background-color:rgb(254,177,0);/* skyblue;*/
+    background-image:url(../images/bg.gif);
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a.title{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:30px;
+   text-decoration: none;
+   
+}
+a.title:link {
+    color:black;
+}
+ 
+a.title:visited {
+    color:black;
+}
+
+a.title:hover {
+    color:black;
+}
+a:active{
+    color:blue;
+}
+
+
+div.main{
+    background-color: rgba(255,255,255,1);
+    border-radius:10px;
+    border-bottom-style: hidden;
+    margin: 50px;
+    padding: 20px;
+    width: 250px;
+    /* display: flex; */
+    /* align-items: center; */
+    flex: initial;
+}
+@media screen and (max-width: 480px){
+    #shader_select_menu{
+        zoom:0.5;
+    }
+}
